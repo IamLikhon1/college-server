@@ -1,0 +1,80 @@
+[
+    {
+        "id":1,
+        "collegeImage":"https://img.freepik.com/free-photo/analog-landscape-city-with-buildings_23-2149661462.jpg?w=740&t=st=1690016189~exp=1690016789~hmac=1f4dd1413a5cdce6ef4ee7ed60fab72d3c5d7363c375aa658b06699d8a9216b5",
+        "collegeName":"Unity College",
+        "admissionDates":{
+            "start_date": "2023-08-15",
+            "end_date": "2023-09-30"
+          },
+          "events":{
+              "name": "Annual Science Fair",
+              "date": "2024-02-25",
+              "location": "Unity College Convention Center"
+            },
+
+        "researchHistory":{
+              "title": "Exploring Artificial Intelligence in Healthcare",
+              "authors":"Michael Adams",
+              "publication_date": "2023-05-02",
+              "journal": "Journal of Medical Informatics"
+            },
+          "sports":{
+            "name":"Football",
+            "league_titles":2,
+            "national_cups": 4
+          }
+    },
+    {
+        "id":2,
+        "collegeImage":"https://img.freepik.com/premium-photo/luxurious-new-building-with-curb-appeal_1127-4448.jpg?w=740",
+        "collegeName":"Ideal College",
+        "admissionDates":{
+            "start_date": "2021-08-25",
+            "end_date": "2021-09-20"
+          },
+          "events":{
+              "name": "Annual Commerce Fair",
+              "date": "2023-05-15",
+              "location": "Ideal College Convention Center"
+            },
+
+        "researchHistory":{
+              "title": "Advancements in Renewable Energy",
+              "authors":"Emily Johnson",
+              "publication_date": "2022-11-18",
+              "journal": "Journal of Sustainable Energy"
+            },
+            "sports":{
+              "name":"Cricket",
+              "league_titles":3,
+              "national_cups": 3
+            }
+    },
+    {
+        "id":3,
+        "collegeImage":"https://img.freepik.com/free-photo/aerial-view-residence-bukovinian-dalmatian-metropolitans-chernivtsi-national-university-chernivtsi-touristic-destination-western-ukraine_231208-41.jpg?w=740&t=st=1690016238~exp=1690016838~hmac=0206baba6658a6234b9709494ce3abd776a3f02f740d1d018f4dacb74124f5ce",
+        "collegeName":"Dhaka College",
+        "admissionDates":{
+            "start_date": "2022-02-15",
+            "end_date": "2023-02-30"
+          },
+          "events":{
+              "name": "Orientation Day",
+              "date": "202-03-02",
+              "location": "Dhaka College Convention Center"
+            },
+
+        "researchHistory":{
+              "title": "The Language of Dolphins",
+              "authors":"Dr. Jane Bennett",
+              "publication_date": "2023-11-29",
+              "journal": "Journal of Marine Biology"
+            },
+            "sports":{
+              "name":"Swimming",
+              "league_titles":2,
+              "national_cups": 1
+            }
+    }
+]

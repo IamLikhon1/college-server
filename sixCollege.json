@@ -1,0 +1,50 @@
+[
+    {
+        "id":1,
+        "college_name": "Harmony College",
+        "college_rating": 4.5,
+        "admission_date": "2023-09-01",
+        "research_count": 56,
+        "college_image": "https://img.freepik.com/free-photo/red-buildings-households_1127-2024.jpg?w=740&t=st=1690084519~exp=1690085119~hmac=1ef9fa66ae7899cd1a84229aee7fb6b99b6a1efa5ae343cf87b3b68936b6c96c"
+    },
+    {
+        "id":2,
+        "college_name": "Summit College of Technology",
+        "college_rating": 4.1,
+        "admission_date": "2023-07-10",
+        "research_count": 60,
+        "college_image": "https://img.freepik.com/free-photo/large-modern-office-building_1127-3061.jpg?w=740&t=st=1690084548~exp=1690085148~hmac=b0d4f48ae584702cea4fe85f159d74546fd8a0b011ddd1d7f95d56801ce15965"
+    },
+    {
+        "id":3,
+        "college_name": "International College",
+        "college_rating": 4.0,
+        "admission_date": "2023-02-01",
+        "research_count": 96,
+        "college_image": "https://img.freepik.com/premium-photo/empty-road-with-modern-buildings-background_1127-4453.jpg?w=740"
+    },
+    {
+        "id":4,
+        "college_name": "Beacon College of Education",
+        "college_rating": 4.8,
+        "admission_date": "2023-05-09",
+        "research_count": 46,
+        "college_image": "https://img.freepik.com/free-photo/low-rise-building_1127-3272.jpg?w=740&t=st=1690084615~exp=1690085215~hmac=73ada648a7dc468c72b45eb21503651fc7fcbe0453ffe4c4a90578aa977a77e2"
+    },
+    {
+        "id":5,
+        "college_name": "Serenity Medical College",
+        "college_rating": 4.2,
+        "admission_date": "2023-04-06",
+        "research_count": 66,
+        "college_image": "https://img.freepik.com/free-photo/glass-buildings-seen-from-lake_1127-2268.jpg?w=826&t=st=1690084640~exp=1690085240~hmac=8d79f43cae0042e82cd0f609657d7003b654f974ebef5241759f740c6ef51efe"
+    },
+    {
+        "id":6,
+        "college_name": "Evergreen State College",
+        "college_rating": 4.9,
+        "admission_date": "2023-01-01",
+        "research_count": 69,
+        "college_image": "https://img.freepik.com/premium-photo/architecture-courtyard-is-classic-style-facade-building-is-classical-style-3d-rendering_295714-4572.jpg?w=740"
+    }
+]

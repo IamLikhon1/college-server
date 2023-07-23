@@ -30,10 +30,33 @@ async function run() {
     await client.connect();
 
     const collegeCollection=client.db('collegeDB').collection('collegeCollection')
+    const reviewCollection=client.db('collegeDB').collection('review')
+
+
+    app.get('/allPost',async(req,res)=>{
+      let query={}
+      if(req.query?.email){
+          query={email:req.query.email}
+      }
+      
+      const result=await collegeCollection.find(query).toArray();
+      res.send(result)
+  });
 
     app.post('/addPost',async(req,res)=>{
       const add=req.body;
       const result=await collegeCollection.insertOne(add)
+      res.send(result)
+    });
+
+    app.post('/addReview',async(req,res)=>{
+      const add=req.body;
+      const result=await reviewCollection.insertOne(add);
+      res.send(result)
+    });
+
+    app.get('/getReview',async(req,res)=>{
+      const result=await reviewCollection.find().toArray();
       res.send(result)
     })
 

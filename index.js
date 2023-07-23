@@ -4,6 +4,7 @@ const app=express()
 const port=process.env.PORT||5000;
 require('dotenv').config()
 const colleges=require('./college.json')
+const sixColleges=require('./sixCollege.json')
 
 // middleware
 app.use(cors())
@@ -27,12 +28,29 @@ async function run() {
   try {
     // Connect the client to the server	(optional starting in v4.7)
     await client.connect();
+
+    const collegeCollection=client.db('collegeDB').collection('collegeCollection')
+
+    app.post('/addPost',async(req,res)=>{
+      const add=req.body;
+      const result=await collegeCollection.insertOne(add)
+      res.send(result)
+    })
+
+
+
+
+
+
+
+
+
     // Send a ping to confirm a successful connection
     await client.db("admin").command({ ping: 1 });
     console.log("Pinged your deployment. You successfully connected to MongoDB!");
   } finally {
     // Ensures that the client will close when you finish/error
-    await client.close();
+    // await client.close();
   }
 }
 run().catch(console.dir);
@@ -48,8 +66,9 @@ run().catch(console.dir);
 app.get('/colleges',(req,res)=>{
     res.send(colleges)
 })
-
-
+app.get('/sixCollege',(req,res)=>{
+  res.send(sixColleges)
+})
 
 app.get('/',(req,res)=>{
     res.send('colleges Is running')
